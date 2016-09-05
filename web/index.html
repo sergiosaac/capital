@@ -201,8 +201,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-
+                <div id="comments" class="col-md-8 col-md-offset-2">
                     <div class="section-title center">
                         <h2>Contáctanos <strong></strong></h2>
                         <div class="line">
@@ -212,27 +211,29 @@
                         <small><em>Escribinos y consultanos sobre dudas o pedidos que tengas. Para nosotros es un placer atenderte!</em></small>            
                     </div>
 
-                    <form>
-                      <div class="wrapper row3">  <!-- Cambiar esta clase!!! -->
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Correo</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese mail">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Nombre</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Escriba su nombre">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Mensaje</label>
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn tf-btn btn-default">Enviar</button>
-                    </form>
+                    <form action="#" method="post">
+                    <div class="one_third first">
+                      <label for="name">Name <span>*</span></label>
+                      <input type="text" name="name" id="name" value="" size="22" required>
+                    </div>
+                    <div class="one_third">
+                      <label for="email">Mail <span>*</span></label>
+                      <input type="email" name="email" id="email" value="" size="22" required>
+                    </div>
+                    <div class="one_third">
+                      <label for="url">Website</label>
+                      <input type="url" name="url" id="url" value="" size="22">
+                    </div>
+                    <div class="block clear">
+                      <label for="comment">Your Comment</label>
+                      <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+                    </div>
+                    <div>
+                      <input type="submit" name="submit" value="Submit Form">
+                      &nbsp;
+                      <input type="reset" name="reset" value="Reset Form">
+                    </div>
+                  </form>
 
                 </div>
             </div>

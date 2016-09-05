@@ -1,4 +1,3 @@
-<?php
-	print "<script>window.location='/admin/login/';</script>";
-
+<?php 
+	print "<script>window.location='http://localhost/exilon/capitalsa/web/';</script>";
 ?>
