@@ -1,0 +1,14 @@
+[18-Aug-2016 08:51:00 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/capitaco/public_html/admin/template/CRUD/clases/Conexion.php:22
+Stack trace:
+#0 /home/capitaco/public_html/admin/template/CRUD/clases/Conexion.php(22): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/capitaco/public_html/admin/template/CRUD/clases/CRUD.php(77): Conexion->conectar()
+#2 /home/capitaco/public_html/admin/login/index.php(19): CRUD->Read()
+#3 {main}
+  thrown in /home/capitaco/public_html/admin/template/CRUD/clases/Conexion.php on line 22
+[25-Aug-2016 11:31:20 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/capitaco/public_html/admin/template/CRUD/clases/Conexion.php:22
+Stack trace:
+#0 /home/capitaco/public_html/admin/template/CRUD/clases/Conexion.php(22): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/capitaco/public_html/admin/template/CRUD/clases/CRUD.php(77): Conexion->conectar()
+#2 /home/capitaco/public_html/admin/login/index.php(19): CRUD->Read()
+#3 {main}
+  thrown in /home/capitaco/public_html/admin/template/CRUD/clases/Conexion.php on line 22
