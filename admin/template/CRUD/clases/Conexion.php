@@ -12,7 +12,7 @@
  * @author Exilon
  */
 class Conexion {
-	/*
+	
     public function conectar() {
 
         $usuario = 'capitaco_carlos';
@@ -24,8 +24,8 @@ class Conexion {
       return $con;
       
     
-    }*/
-
+    }
+/*
     public function conectar() {
 
         $usuario = 'root';
@@ -37,5 +37,5 @@ class Conexion {
       return $con;
       
     
-    }
+    }*/
 }
