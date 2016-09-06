@@ -24,9 +24,9 @@ Licence URI: http://www.os-templates.com/template-terms
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-        <h1><a href="../index.html">CAPITAL</a></h1>
+        <h1><a href="../index.php">CAPITAL</a></h1>
       </div>
-       <nav id="mainav" class="center">
+      <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li class="active"><a href="../index.php">Inicio</a></li>
            <li></li>
@@ -67,9 +67,7 @@ Licence URI: http://www.os-templates.com/template-terms
              
               <li></li>
         </ul>
-         <li></li>
-        <li><a href="#">Contacto</a></li>
-      </nav>
+      <form action="#"><select><option selected="selected" value="">MENU</option><option value="../index.html">Home</option><option value="#">Pages</option><option value="gallery.html">- - Gallery</option><option value="full-width.html">- - Full Width</option><option value="sidebar-left.html">- - Sidebar Left</option><option value="sidebar-right.html">- - Sidebar Right</option><option value="basic-grid.html">- - Basic Grid</option><option value="#">Dropdown</option><option value="#">- - Level 2</option><option value="#">- - Level 2 + Drop</option><option value="#">- - - Level 3</option><option value="#">- - - Level 3</option><option value="#">- - - Level 3</option><option value="#">- - Level 2</option><option value="#">Link Text</option><option value="#">Link Text</option></select></form></nav>
       <!-- ################################################################################################ -->
     </header>
   </div>

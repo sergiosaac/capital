@@ -62,21 +62,18 @@ if(isset($_GET['buscado'])){
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div class="wrapper row">
+  <div class="wrapper row2">
     
     <div id="breadcrumb" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
+        <li><a href="../index.php">Inicio</a></li>
+        <li><a href="../index.php">Productos</a></li>
         <li><a href="#">Vehículos</a></li>
-        
       </ul>
 
       <!-- ################################################################################################ -->
     </div>
-
-
   </div>
   <!-- ################################################################################################ -->
 </div>
@@ -107,9 +104,11 @@ if(isset($_GET['buscado'])){
       
       <div class="one_quarter">
         <div class="three_third first">
-              <input type="text" name="nombre" id="nombre" placeholder="Marca, modelo, etc.." value="" size="22" required>
+              <input type="text" name="nombre" id="nombre" placeholder="Marca, modelo, etc..
+              " value="" size="22" required>
             </div>
       </div>
+      <input class="btn" type="submit" value="Buscar"/> 
       </form>
       </div>
       </div>
@@ -119,10 +118,10 @@ if(isset($_GET['buscado'])){
         <?php $first = 0; 
           foreach ($vehiculos as $vehiculo) {?>
           <?php if($first == 0){ echo '<div class="one_third first">'; }else{ echo '<div class="one_third">'; } ?>
-            <img height="300" width="300" src="../../admin/template/archiv/vehiculos/portadas/<?=$vehiculos[3]['foto_portada_vehiculo']?>" alt=""></a>
-            <p><a href="#"><?=$vehiculo['titulo_vehiculo']?></a> <br> <?=$vehiculo['descripcion_corta_vehiculo']?> </p>
+            <a href="un-vehiculo.php?id=<?=$vehiculo['id']?>"><img height="300" width="300" src="../../admin/template/archiv/vehiculos/portadas/<?=$vehiculo['foto_portada_vehiculo']?>" alt=""></a>
+            <p><a href="un-vehiculo.php?id=<?=$vehiculo['id']?>"><?=$vehiculo['titulo_vehiculo']?></a> <br> <?=$vehiculo['descripcion_corta_vehiculo']?> </p>
           </div>
-          <?php if($first == 2){ echo '<br><br><br><br><hr><br><br><br>'; }?>
+          <?php if($first == 2){ echo '<br><br><br><br><hr><br>'; }?>
         <?php 
 
       if ($first <= 1) {
