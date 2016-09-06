@@ -1,2 +1,2 @@
 # capital
-ADM autos y weeb institucional
+ADM autos y web institucional
