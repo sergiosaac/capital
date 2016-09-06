@@ -25,10 +25,7 @@
         <li>
           <article>
             <a href="#" align="center"  ><img  src="images/demo/logo-capital.png"  alt=""></a>
-             
-          
-
-            <footer><a class="btn" href="pages/gallery1.html">Inmuebles</a> <a class="btn" href="pages/gallery2.html">Vehiculos</a></footer>
+            <footer><a class="btn" href="pages/gallery1.html">Inmuebles</a> <a class="btn" href="pages/vehiculos.php">Vehiculos</a></footer>
           </article>
         </li>
         
@@ -179,14 +176,14 @@
     <!-- ################################################################################################ -->
     <div class="container">
 
-               <div class="section-title center">
-                        <h2>Quienes somos? <strong></strong></h2>
-                        <div class="line">
-                            <hr>
-                        </div>
-                        <div class="clearfix"></div>
-                        <small><em>Este espacio va la descripcion de la empresa, la mision y vision, o el tiempo que estan en el mercado, para que los posibles clientes puedan informarse mas de la empresa misma</em></small>            
-                    </div>
+     <div class="section-title center">
+        <h2>Quienes somos? <strong></strong></h2>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="clearfix"></div>
+        <small><em>Este espacio va la descripcion de la empresa, la mision y vision, o el tiempo que estan en el mercado, para que los posibles clientes puedan informarse mas de la empresa misma</em></small>            
+    </div>
 
     <!-- ################################################################################################ -->
   </article>
@@ -213,26 +210,27 @@
 
                     <form action="#" method="post">
                     <div class="one_third first">
-                      <label for="name">Name <span>*</span></label>
-                      <input type="text" name="name" id="name" value="" size="22" required>
+                      <label for="name">Nombre <span>*</span></label>
+                      <input type="text" name="nombre" id="nombre" value="" size="22" required>
                     </div>
                     <div class="one_third">
-                      <label for="email">Mail <span>*</span></label>
-                      <input type="email" name="email" id="email" value="" size="22" required>
+                      <label for="email">Correo <span>*</span></label>
+                      <input type="email" name="correo" id="correo" value="" size="22" required>
                     </div>
                     <div class="one_third">
-                      <label for="url">Website</label>
-                      <input type="url" name="url" id="url" value="" size="22">
+                      <label for="email">Celular: <span>*</span></label>
+                      <input type="email" name="celular" id="celular" value="" size="22" required>
                     </div>
                     <div class="block clear">
-                      <label for="comment">Your Comment</label>
-                      <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+                      <label for="comment">Mensaje:</label>
+                      <textarea name="mensaje" id="mensaje" cols="25" rows="10"></textarea>
                     </div>
                     <div>
-                      <input type="submit" name="submit" value="Submit Form">
-                      &nbsp;
-                      <input type="reset" name="reset" value="Reset Form">
+                      <input type="submit" name="submit" value="Enviar">
+                      
                     </div>
+
+
                   </form>
 
                 </div>
